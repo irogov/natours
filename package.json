@@ -1,0 +1,28 @@
+{
+  "name": "4-natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "slugify": "^1.5.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  }
+}
